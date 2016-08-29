@@ -1,3 +1,9 @@
 >> save datafile data  - saves variable 'data' to datafile.mat
 >>clear - clears workspace
 >> load datafile - Loads datafile.mat in workspace
+
+To load a file into wrkspace:
+Go to Import data option , click the file and u'll see a preview of how the file is uploaded in MATLAB
+Here, u can select the type of structure to be loaded (whether as col vectors,numeric , Table etc..)
+Click Import data selection and the data is loaded into the wrkspace.
+
