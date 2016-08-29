@@ -1,0 +1,18 @@
+Storing data in variables:
+x = 3 ('=' assignment operator is used)
+>>clear  ( clears the stored variables i.e workspace variables and other data)
+>>clc ( clears the command window)
+--------------------------------------------
+pi is considered as 3.1416
+x = pi/2 
+x is 1.5708
+-------------------------------------
+sine function (sin)
+y = sin(x) (where x is 1.5708 from the prev task)
+y is  1.
+
+sqrt func:
+z = sqrt(-9)
+z is 0.0000 + 3.0000i
+
+------------------------------------
