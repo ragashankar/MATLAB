@@ -1,0 +1,3 @@
+>> save datafile data  - saves variable 'data' to datafile.mat
+>>clear - clears workspace
+>> load datafile - Loads datafile.mat in workspace
