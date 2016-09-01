@@ -1,0 +1,99 @@
+>> load datafile
+
+>> density = data(:,2);
+
+>> v1 = data(:,3);
+
+>> v2 = data(:,4);
+
+
+Task 1✔  -  Add a scalar vector 1 array v1
+
+>> r = v1+1
+
+r =
+
+    5.0753
+    7.6678
+    2.5177
+    4.6375
+    5.7243
+   10.0698
+    6.3002
+
+Task 2✔  Add two arrays of same size i.e v1 and v2
+
+>> vs = v1+v2
+
+vs =
+
+    4.5753
+    8.8006
+    5.2029
+   12.1764
+   14.8813
+   11.9437
+    9.7510
+
+Task 3✔  Divide the array vs by 2 to get the average volume
+
+>> va=vs/2
+
+va =
+
+    2.2877
+    4.4003
+    2.6014
+    6.0882
+    7.4406
+    5.9718
+    4.8755
+
+
+
+
+Task 4✔ Find the max average volume
+
+>> vm = max(va)
+
+vm =
+
+    7.4406
+
+
+
+Task 5✔ Round the average vol to the nearest integer
+
+>> vr=round(va)
+
+vr =
+
+     2
+     4
+     3
+     6
+     7
+     6
+     5
+
+
+
+Task 6✔ Calculate Mass (density *av vol) ( * is matrix mul)
+
+>> mass = density * va
+
+Inner matrix dimensions must agree.
+
+Task 7✔ Calculate mass with element-wise multplication b/w two arrays ( .*)
+
+>> mass = density .* va
+
+mass =
+
+    1.2125
+    7.8325
+    2.2372
+    9.7411
+   22.3220
+   36.4880
+   12.3838
